@@ -8,9 +8,9 @@ namespace QiwiRein
 {
     public partial class Form3 : Form
     {
-        static string name = "QiwiDestkop";
-        static string ownerid = "y9EgdfR9kL";
-        static string secret = "0c87fda24cf305a4547d963b6fce35223c167476471fcac6e5cb5c583fab4fa4";
+        static string name = "";
+        static string ownerid = "";
+        static string secret = "";
         static string version = "3.0";
 
         public static KeyAuth.api KeyAuthApp = new KeyAuth.api(name, ownerid, secret, version);
